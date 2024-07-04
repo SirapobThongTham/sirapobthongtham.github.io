@@ -42,7 +42,6 @@ i {
     margin-left: auto;
     margin-right: auto;
 }
-
 /*----------- NAVIGATION BAR-------------- */
 header {
     background-color: white;
@@ -122,6 +121,11 @@ header.sticky{
     margin: 10px 0;
 }
 
+.grid-1-contact iframe{
+    width: 100%; 
+    margin-bottom: 20px;
+}
+
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
@@ -188,6 +192,11 @@ header.sticky{
 /*----------- SUPER GRID LEFT -----------*/
 
 /*----------- SUPER GRID RIGHT -----------*/
+.grid-box-color {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+}
 .grid-box-2{
     color: var(--gray);
     font-size: 14px;
@@ -195,6 +204,19 @@ header.sticky{
 
 .super-grid-right h1 {
     margin: 10px 0;
+}
+
+.grid-2-row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:30px 20px;
+}
+
+.img-2{
+    position: relative; 
+    max-width: 200px; 
+    height: 150px; 
+    overflow: hidden;
 }
 
 /* END */
@@ -209,6 +231,7 @@ header.sticky{
 }
 .end .wrapper ul{
     display: flex;
+    align-items: center;
 }
 .end .wrapper ul li a{
     margin-left: 10px;

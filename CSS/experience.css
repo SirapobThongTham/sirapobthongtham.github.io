@@ -42,7 +42,6 @@ i {
     margin-left: auto;
     margin-right: auto;
 }
-
 /*----------- NAVIGATION BAR-------------- */
 header {
     background-color: white;
@@ -113,6 +112,7 @@ header.sticky{
     margin-bottom: 25px;
     border-radius: 20px;
 }
+
 .grid-box-1{
     color: var(--gray);
     font-size: 14px;
@@ -122,6 +122,10 @@ header.sticky{
     margin: 10px 0;
 }
 
+.grid-1-contact iframe{
+    width: 100%; 
+    margin-bottom: 20px;
+}
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
